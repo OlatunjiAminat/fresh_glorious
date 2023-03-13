@@ -2,17 +2,15 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: 2px solid red;
   font-family: Poppins;
 }
-.logo-cont{
-  max-width:150px;
+.logo-cont {
+  max-width: 150px;
   max-height: 100px;
 }
 
-
 .logo-img {
-  max-width:100%;
+  max-width: 100%;
   height: auto;
   border-radius: 50%;
   background-color: black;
@@ -21,7 +19,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #333;
+  background-color: #00425a;
 }
 .topnav {
   overflow: hidden;
@@ -49,19 +47,16 @@ nav {
   text-align: center;
   font-style: italic;
   color: rgb(241, 194, 73);
-  font-size: 2vw;
 }
 .unique {
   color: green;
-  font-size: 2vw;
 }
+
 .college {
-  color: black;
-  font-size: 2vw;
+  color: #bfdb38;
 }
 .glorious {
-  color: crimson;
-  font-size: 2vw;
+  color: white;
 }
 #unique {
   margin: 10px 5px;
@@ -69,20 +64,25 @@ nav {
 }
 .home {
   text-align: center;
-  padding: 10px 5px;
+  margin: 0;
   color: white;
-  font-size:1.5vw;
 }
-.founder-welcome{
-  font-size: 1.5vw;
+.home-cont {
+  margin: 0 10px;
+}
+.founder-welcome {
   margin: 10px 10px;
-  }
+}
+.founder-welcome1 {
+  margin: 10px 10px;
+  color: white;
+}
 button {
   width: 150px;
   height: 30px;
   border-style: none;
   border-radius: 10px;
-  margin: 10px 30%;
+  margin: 10px 65px;
 }
 button:hover {
   background-color: rgb(241, 194, 73);
@@ -94,120 +94,133 @@ button a {
 .first-section {
   display: flex;
   justify-content: space-between;
-  background-color: #333;
+  background-color: #00425a;
   margin-bottom: 70px;
+  padding-bottom: 100px;
 }
 .register {
-    font-size: 20px;
-    color: red;
-    font-style: oblique;
-    margin-left: 10px;
+  color: #fc7300;
+  font-style: oblique;
+  margin-left: 10px;
 }
-.shadow-wrapper{
-    box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.19),
+.shadow-wrapper {
+  box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.19),
     15px 6px 30px rgba(238, 223, 223, 0.19);
-    margin: 20px 10px ;
-    padding:10px 20px;
-    border-radius: 20px;
-    max-width:250px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  max-width: 250px;
+  margin: auto;
+  margin-bottom: 20px;
 }
-.kinder{
-    color:green;
-    font-size: 1.5vw;
+.kinder {
+  color: black;
 }
-.read-more{
-    color:rgb(241, 194, 73);
-    padding: 10px 10px;
+.read-more {
+  padding: 10px 10px;
+  color: #fc7300;
 }
-.read-cont a{
+.read-cont a {
   text-decoration: none;
 }
-.founder-speech{
+.founder-speech {
   padding-top: 30px;
-  color:rgb(61, 61, 179);
+  color: white;
   text-align: center;
 }
+.student-speech {
+  padding-top: 10px;
+  color: #1f8a70;
+  text-align: center;
+  margin: 0;
+}
 
-.second-section{
-    margin-bottom: 70px;
+.second-section {
+  margin: 150px 0px;
 }
-.third-section{
-    background-color:whitesmoke;
-    padding-bottom: 100px;
+.third-section {
+  background-color: #1f8a70;
+  padding-bottom: 100px;
+  margin: 150px 0px;
 }
-.shadow-cont a{
+.shadow-cont a {
   text-decoration: none;
 }
-.shadow-wrapper p{
-  color:rgb(81, 77, 77);
-  font-size: 1.5vw;
+.shadow-wrapper p {
+  color: rgb(81, 77, 77);
 }
 .best-student {
   text-align: center;
-  font-size: 15px;
   font-style: italic;
 }
-.best-student-img{
+.best-student-img {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.fourth-section{
-  margin: 100px 0;
+.fourth-section {
+  margin: 100px 0 150px;
 }
-.difference{
-  color: crimson;
- text-align: center;
+.difference {
+  color: rgb(59, 56, 56);
+  text-align: center;
 }
-.experience{
+.experience {
   margin: 10px 5px;
   line-height: 30px;
-  color:white;
-  font-size: 1.5vw;
-
+  color: rgb(59, 56, 56);
 }
-.fifth-section{
-  background-color: #575050
+.fifth-section {
+  background-color: #bfdb38;
+  margin-bottom: 150px;
 }
-.tutor-img{
-  width:350px;
-  height:250px;
-  margin: 30px 0;
+.sixth-section {
+  margin-bottom: 150px;
+}
+.tutor-img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
-.tutor-img1{
-  width:350px;
-  height:250px;
-  margin: 30px 0;
+.tutor-img1 {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
-.hod{
+.hod {
   margin-top: 100px;
   text-align: center;
+  font-size: 4vw;
+  color: #1f8a70;
 }
-.post{
+.post {
   text-align: center;
   margin: 0;
-  font-size: 1.5vw;
 }
-.overall-cont{
+.overall-cont {
   margin-top: 50px;
   padding-left: 10px;
-  background-color:rgba(121, 114, 114, 0.575);
+  background-color: #00425a;
 }
-.overall-cont a{
+.overall-cont a {
   display: block;
   text-decoration: none;
   padding-left: 10px;
-  color:#f2f2f2;
+  color: #f2f2f2;
 }
-.overall-cont p{
-  color:#f2f2f2;
+.overall-cont p {
+  color: #f2f2f2;
 }
 .copyright-logo {
   padding: 0 10px;
-  font-size: 8px;
+}
+
+.the {
+  color: #fc7300;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -217,7 +230,7 @@ button a {
   .topnav a.icon {
     float: right;
     display: block;
-    margin-left: 10px;
+    margin-left: 30px;
   }
   .topnav.responsive {
     position: relative;
@@ -235,168 +248,252 @@ button a {
   .home-img {
     display: none;
   }
-  .founder-img{
+  .founder-img {
     display: none;
   }
-  .best-student-img{
+  .best-student-img {
     display: none;
   }
-  .founder-welcome{
+  .founder-welcome {
+    text-align: center;
     margin: 5px 5px;
+    font-size: 4vw;
   }
-  .shadow-wrapper p{
-    color:rgb(81, 77, 77);
+  .founder-welcome1 {
+    text-align: center;
+    margin: 5px 5px;
+    font-size: 4vw;
   }
-  iframe{
-    display:none;
+  .shadow-wrapper p {
+    color: rgb(81, 77, 77);
+  }
+  iframe {
+    display: none;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .register {
+    font-size: 4vw;
+  }
+  .welcome {
+    font-size: 4vw;
+  }
+  #unique {
+    font-size: 4vw;
+  }
+  .experience {
+    font-size: 4vw;
+  }
+  .hod {
+    font-size: 4vw;
+  }
+  .difference {
+    font-size: 4vw;
   }
   .tutor-img {
-    width: 300px;
-    height:2;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .tutor-img1 {
-    width:300px;
-    height:250px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+  .kinder {
+    font-size: 4vw;
   }
-  .footer-logo{
-    display: none;
+  .founder-speech {
+    font-size: 4vw;
   }
- } 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .shadow-cont{
-        display:flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    .home-img{
-      margin-top: 10px;
-    }
-    
-    .founder-img{
-      border-radius: 50%;
-      border:5px dashed gray;
-    }
-    .third-section .third-section-wrapper{ 
-        display: flex;
-        justify-content: space-between;
-    }
-    .fourth-section{
-      display: flex;
-      justify-content: space-between;
-    }
-    .founder-welcome{
-     font-style: oblique;
-    }
-    .fifth-section{
-      display: flex;
-      justify-content:space-around;
-    }
-    .tutor-cont{
-      display: flex;
-      justify-content:space-around;
-      flex-wrap: wrap;
-    }
-    .hod{
-      font-size: 30px;
-    }
-    .overall-cont h2{
-      font-size: 20px;
-      margin: 0;
-    }
-    .about{
-      padding-bottom: 20px;
-    }
-    .footer-logo{
-      display: block;
-      width: 150px;
-      height: 100px;
-      border-radius: 50%;
-      background-color: black;
-      border: 2px solid green;
-    }
-    .overall-cont{
-      padding-top: 30px;
-      display: flex;
-      justify-content: space-around;
-    }
-    .copyright {
-      display: flex;
-      justify-content: space-between;
-    }
-    .copyright-logo {
-      padding: 0 10px;
-      font-size: 12px;
-    }
-    
+  .student-speech {
+    font-size: 4vw;
+  }
+  .post {
+    font-size: 4vw;
+  }
+
+  .home {
+    text-align: center;
+    font-size: 4vw;
+    margin: 5px 5px;
+    color: white;
+  }
+  .footer-wrap {
+    font-size: 4vw;
+  }
+  .copyright-logo {
+    font-size: 4vw;
+  }
+  button {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 40px 50px;
+  }
+  .logo-img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid green;
+  }
+  .overall-cont {
+    padding: 20px 0px;
+  }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1440px) {
-  #unique {
-    font-size: 30px;
-  }
-  .topnav a{
-    padding: 16px 20px;
-  }
-  .home-img{
-    margin-top: 10px;
-  }
-  .shadow-cont{
-    display:flex;
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .shadow-cont {
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-.founder-img{
+  }
+  .founder-img {
     border-radius: 50%;
-    border:5px dashed gray;
-}
-
-.third-section .third-section-wrapper{ 
+    border: 5px dashed gray;
+  }
+  .third-section .third-section-wrapper {
     display: flex;
     justify-content: space-between;
+  }
+  .fourth-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .founder-welcome {
+    font-style: oblique;
+  }
+  .founder-welcome1 {
+    font-style: oblique;
+  }
+  .fifth-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  .tutor-cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .hod {
+    font-size: 3vw;
+  }
+  .overall-cont h2 {
+    margin: 0;
+  }
+  .about {
+    padding-bottom: 20px;
+  }
+  .footer-logo {
+    display: block;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid green;
+  }
+  .overall-cont {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright-logo {
+    padding: 0 10px;
+  }
+  .register {
+    font-size: 3vw;
+  }
+  .tutor-img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .kinder {
+    font-size: 2vw;
+  }
+  button {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 50px 20px;
+  }
+  .logo-img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid green;
+  }
 }
-.fourth-section{
-  display: flex;
-  justify-content: space-between;
-}
-.founder-welcome{
-  font-style: oblique;
- }
- .fifth-section{
-  display: flex;
-  justify-content: space-around;
-}
-.tutor-cont{
-  display: flex;
-  justify-content:space-around;
-  flex-wrap: wrap;
-}
-.hod{
-  font-size: 40px;
-}
-.footer-logo{
-  display: block;
-  width: 150px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: black;
-  border: 2px solid green;
-  margin-top: 15px;
-}
-.overall-cont{
-  display: flex;
-  justify-content: space-around;
-}
-.copyright {
-  display: flex;
-  justify-content: space-between;
-}
-.copyright-logo {
-  padding: 0 10px;
-  font-size: 12px;
-}
-.post{
-  font-size: 1vw;
-}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .topnav a {
+    padding: 16px 20px;
+  }
+  .home-img {
+    margin-top: 10px;
+  }
+  .shadow-cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .founder-img {
+    border-radius: 50%;
+    border: 5px dashed gray;
+  }
 
+  .third-section .third-section-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fourth-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .founder-welcome {
+    font-style: oblique;
+  }
+  .founder-welcome1 {
+    font-style: oblique;
+  }
+  .fifth-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  .tutor-cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .hod {
+    font-size: 2vw;
+  }
+  .footer-logo {
+    display: block;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid green;
+    margin-top: 15px;
+  }
+  .overall-cont {
+    display: flex;
+    justify-content: space-around;
+  }
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright-logo {
+    padding: 0 10px;
+  }
+  button {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 70px 120px;
+  }
 }
