@@ -66,16 +66,21 @@ nav {
   text-align: center;
   margin: 0;
   color: white;
+  line-height: 2;
 }
 .home-cont {
   margin: 0 10px;
 }
 .founder-welcome {
   margin: 10px 10px;
+  line-height: 2;
 }
 .founder-welcome1 {
   margin: 10px 10px;
   color: white;
+  line-height: 2;
+
+
 }
 button {
   width: 150px;
@@ -434,6 +439,13 @@ button a {
   .home-img {
     margin-top: 10px;
   }
+  .home{
+    font-size: 18px;
+    padding: 0 15px;
+  }
+  #unique{
+    font-size: 35px;
+  }
   .shadow-cont {
     display: flex;
     justify-content: space-around;
@@ -452,11 +464,24 @@ button a {
     display: flex;
     justify-content: space-between;
   }
+  .founder-speech{
+    font-size: 35px;
+  }
+  .student-speech{
+    font-size: 35px;
+  }
   .founder-welcome {
     font-style: oblique;
+    font-size: 20px;
+    padding: 0 20px;
+
   }
   .founder-welcome1 {
     font-style: oblique;
+    font-size: 20px;
+    font-weight:600;
+    padding: 0 20px;
+
   }
   .fifth-section {
     display: flex;

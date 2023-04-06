@@ -112,7 +112,8 @@ label {
   text-align: center;
 }
 input {
-  border: 1px solid black;
+  border: 1px solid grey;
+  border-radius: 2px;
 }
 input[type="submit"] {
   display: block;
@@ -210,11 +211,21 @@ form {
     font-size: 20px;
     margin: 0;
   }
+  .unique{
+    line-height: 2;
+  }
+  .founder-wrap ul{
+    line-height: 2;
+  }
   .about {
     padding-bottom: 20px;
   }
   .estate {
     padding-top: 20px;
+  }
+  input {
+    border: 1px solid grey;
+    border-radius: 5px;
   }
   .footer-logo {
     display: block;
@@ -250,6 +261,12 @@ form {
   .founder-img {
     width: 600px;
   }
+  .unique{
+    line-height: 2;
+  }
+  .founder-wrap ul{
+    line-height: 2;
+  }
   .footer-logo {
     display: block;
     width: 150px;
@@ -275,5 +292,6 @@ form {
     height: 30px;
     width: 300px;
     border: 1px solid gray;
+    border-radius: 5px;
   }
 }
